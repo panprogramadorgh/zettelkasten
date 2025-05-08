@@ -1,4 +1,4 @@
-# opencv-python
+# OpenCV-Python
 
 opencv-python in an essential image utility library when it comes to computer vision. It is originally written in C++ but this module provides access to its functionality by a binding.
 
