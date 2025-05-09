@@ -5,7 +5,6 @@ Programming libraries regard to creation, training and deployment of artificial 
 - [[2505050844_opencv-python-brief]]
 - [[2505051000_scikit-learn-brief]]
 - [[2505051014_tensorflow-brief]]
-- [[2505060829_tensorflow-keras-api-brief]]
 
 
 #programming #ai #neural_networks #machine_learning #python
