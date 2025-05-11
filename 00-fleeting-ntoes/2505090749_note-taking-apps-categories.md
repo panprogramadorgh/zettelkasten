@@ -15,7 +15,7 @@ The second option is much more competitive in the market, and there are many mor
 | Knowledge    | Obsidian, Roam Research, Logseq, Evernote, Joplin |
 | Productivity | Tana, Notion                                      |
 In general case, productivity applications are much more sophisticated in terms of:
-- **Functionality**. Probably as consequent of a market with higher rates of competition, existing applications are tend to implement a lot more utilities and use cases. Not completely sure, just my supposition, I would say the reason why Notion is such popular regards to simplicity, or transmit that feeling at least (something similar happens with Tana).
-- **Monetization**. As I've researched these sort of apps, seems there are a tendency on how they build their monetization system. Compared with **Knowledge Management** apps, where there is a clary prevail over equivalence of software transparency and popularity, **Productivity** apps are tend to be more opaque and that doesn't necessarily harm the business model.
+- **Functionality and personalization**. Probably as consequent of a market with higher rates of competition, existing applications are tend to implement a lot more utilities and use cases. Applications such as Notion organizes notes with a database system which allows you to customize how do you treat those (tasks, cards, calendar...).
+- **Monetization**. As I've researched these sort of apps seem there have a tendency on how they build their monetization system. Compared with **knowledge management** apps, where there is a clary prevail over equivalence of software transparency and popularity, **productivity** apps are tend to be more opaque and that doesn't necessarily harm the business model.
 
 #fleeting

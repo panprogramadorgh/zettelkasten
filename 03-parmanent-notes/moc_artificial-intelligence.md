@@ -9,4 +9,4 @@ Programming libraries regard to creation, training and deployment of artificial 
 
 #programming #ai #neural_networks #machine_learning #python
 
-#moc
+#permanent #moc

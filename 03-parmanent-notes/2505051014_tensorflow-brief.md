@@ -9,5 +9,5 @@ With `TensorFlow` we are able to create deep learning models to perform tasks su
 
 #python #programming #ai #neural_networks #machine_learning #library #computer_vision #computer_vision #natural_language_processing #tensorflow
 
-#literature
+#permanent
 

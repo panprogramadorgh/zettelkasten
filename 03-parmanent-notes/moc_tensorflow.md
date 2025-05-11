@@ -15,4 +15,4 @@ Remember to check the official documentation at [Keras official docs](https://ww
 
 #programming #ai #neural_networks #machine_learning #python #tensorflow
 
-#moc
+#permanent #moc

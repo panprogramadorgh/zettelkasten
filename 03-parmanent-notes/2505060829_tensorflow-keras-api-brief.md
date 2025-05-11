@@ -12,4 +12,4 @@ The two key API components in keras are Layers and Models, see [[2505071017_tens
 
 #ia #machine_learning #neural_networks #tensorflow
 
-#literature 
+#permanent 

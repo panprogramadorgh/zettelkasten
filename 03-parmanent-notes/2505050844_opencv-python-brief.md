@@ -10,4 +10,4 @@ As frequently happens with computer vision, machine learning algorithms are the 
 
 #python #programming #ai #neural_networks #image_processing #machine_learning #library #computer_vision 
 
-#literature
+#permanent

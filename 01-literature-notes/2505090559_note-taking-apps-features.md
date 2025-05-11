@@ -31,6 +31,10 @@ Here is this board we have an overview of the most popular note taking applicati
 
 With all this information we can conclude there are two different types / categories of note taking apps, one of which has higher demand, see [[2505090749_note-taking-apps-categories]] for more information.
 
+## Value Addition Features
+
+Based on the features listed in the summary above, I started to develop some ideas about features to include in this app (see [[2505091135_development-value-addition-ideas-note-taking-app]]).
+
 ## Bibliography
 
 This summary of features and focal points for this whole bunch of note-taking applications were generated with `ChatGPT`, which might be wrong or present lack of accuracy.

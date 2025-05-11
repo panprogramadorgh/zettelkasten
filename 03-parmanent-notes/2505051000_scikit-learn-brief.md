@@ -7,4 +7,4 @@ Popular python library specialized in machine learning utilities and data analys
 
 #ai #python #machine_learning #library #programming
 
-#literature
+#permanent
