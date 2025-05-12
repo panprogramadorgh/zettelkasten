@@ -10,11 +10,12 @@
 ## Tech
 
 #ia #python #programming #neural_networks #image_processing #machine_learning 
-#library #computer_vision #natural_language_processing #tensorflow
+#library #computer_vision #natural_language_processing #tensorflow #git
 
 ## Startup
 
-#startup #brainstorming 
+#startup #brainstorming #ideas_dev #competitors_analysis 
+#note_taking_app
 
 ## Other Tags
 
