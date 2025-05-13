@@ -16,7 +16,3 @@
 
 #startup #brainstorming #ideas_dev #competitors_analysis 
 #note_taking_app
-
-## Other Tags
-
-#week_tasks

@@ -12,4 +12,4 @@ Below we will briefly describe what features the minimum viable product for the 
 	3. Cards
 5. Creation of notes with voice transcription `AI Assistance`
 
-#fleeting
+#fleeting #startup #note_taking_app #brainstorming 

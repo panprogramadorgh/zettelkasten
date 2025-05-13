@@ -1,4 +1,10 @@
-# Feature Categories Note-Taking Application
+# Feature Categories
+
+### Tags
+
+#note_taking_app #startup #permanent 
+
+---
 
 Here is a classification of the main features and application capabilities existing companies offer in the market.
 
@@ -12,6 +18,5 @@ Here is a classification of the main features and application capabilities exist
 | **AI Assistance** (Tana)                                      | Automates summarization and knowledge discovery (still early days)                                      |
 | **Live Editing of Markdown** (Obsidian, Notion, Logseq, Tana) | Eases markdown edition since you can see the resulting formatted document at the same time you edit it. |
 
-#note_taking_app #startup
-
-#permanent 
+## Sources
+- `ChatGPT`

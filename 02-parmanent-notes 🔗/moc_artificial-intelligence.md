@@ -1,4 +1,10 @@
 # Contents
+
+### Tags
+
+#programming #ai #neural_networks #machine_learning #python #permanent #moc 
+
+---
 ## Libraries
 Programming libraries regard to creation, training and deployment of artificial intelligence models.
 ### Briefs
@@ -7,6 +13,3 @@ Programming libraries regard to creation, training and deployment of artificial 
 - [[2505051014_tensorflow-brief]]
 
 
-#programming #ai #neural_networks #machine_learning #python
-
-#permanent #moc

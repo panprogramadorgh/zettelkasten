@@ -1,6 +1,12 @@
 # TensorFlow
-TensorFlow is an open source machine learning library developed by google.
 
+### Tags
+
+#programming #ai #neural_networks #machine_learning #python #tensorflow #permanent #moc 
+
+---
+
+TensorFlow is an open source machine learning library developed by google.
 ## Introduction to TensorFlow
 - [[2505051014_tensorflow-brief]]
 - [[2505061002_who-should-use-tensorflow-keras]]
@@ -13,6 +19,3 @@ TensorFlow is an open source machine learning library developed by google.
 ## Official Docs
 Remember to check the official documentation at [Keras official docs](https://www.tensorflow.org/guide/keras).
 
-#programming #ai #neural_networks #machine_learning #python #tensorflow
-
-#permanent #moc

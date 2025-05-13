@@ -1,5 +1,12 @@
 # Keras API Components
+
 The core two data structures of keras are Layers and models. A layer is an input / output transformation and a model is a directed acyclic graph (DAG) of layers.
+
+### Tags
+
+#programming #ai #neural_networks #machine_learning #python #tensorflow #permanent 
+
+---
 ## Layers
 Keras makes use of `tf.keras.layers.Layer` as its fundamental abstraction which encapsulates some state in form of weights and some computation defined by the `tf.keras.layers.Layer.call`method.
 
@@ -13,13 +20,13 @@ The simplest model in keras is the `tf.keras.Sequential`, which allows to create
 The `tf.keras.Model` class features built-in training and evaluation methods:
 - `tf.keras.Model.fit` — This method trains a model for a given number of epochs.
 - `tf.keras.Model.predict` — Generates output predictions for input samples.
-- `tf.keras.Model.evaluate` — Returns the loss and metrics values for the model
+- `tf.keras.Model.evaluate` — Returns the loss and metrics values for the model; configured with:
+- `tf.keras.Model.compile` method.
 
 These methods gives you access to the following built-in training features:
 - Callbacks — [[2505081104_tensorflow-keras-callbacks]]
-- Distributed training
-- Step fusing
+- Distributed training. Scale training to multiple GPUs, TPUs or devices.
+- Step fusing.
 
-#programming #ai #neural_networks #machine_learning #python #tensorflow 
-
-#literature
+## Sources
+- `TensorFlow` official docs.

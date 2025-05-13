@@ -2,6 +2,13 @@
 
 This note contains the ideas behind what I intend to develop as main features of my note-taking application. The purpose is to describe, elaborate, find entailments and finally reach to deeper conclusions about the viability of that ideas.
 
+### Tags
+
+
+#startup #ideas_dev #note_taking_app #literature 
+
+---
+
 After an exercise of research of other available alternatives, I've reach to the conclusion that this application will be denoted as an smart Zettelkasten creator where various running-local IA agents will leverage this method of managing knowledge; however it's of vital importance keep the exact same approach other competitors like Notion does — allow the users to create their customized manner with database of storing the notes or pages.
 
 ## Value Addition Ideas
@@ -26,6 +33,6 @@ Below there are some ideas categorized by feature type.
 		1. **Navigate quickly to specific notes**. Eases the access just by briefly describing what is that note about (`AI Assistance`).
 4. **Handwriting support oriented to on-fly drawing creation within notes** (`All-in-One Workspace`).
 
-#startup #ideas_dev #note_taking_app
+### Sources
 
-#literature
+- `ChatGPT`
