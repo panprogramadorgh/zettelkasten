@@ -68,7 +68,7 @@ git submodule add $SUBMOD $PRJ
 # We nagivate to the submodule and lock the commit
 cd "serve-xpress"
 git checkout "71c82fc"
-git commit -mS "Locked commit in submodule"
+git commit -S -m "Locked commit in submodule"
 ```
 
 Then users that tend to:

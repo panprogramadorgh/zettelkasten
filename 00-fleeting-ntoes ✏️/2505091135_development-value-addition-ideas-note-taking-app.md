@@ -4,8 +4,7 @@ This note contains the ideas behind what I intend to develop as main features of
 
 ### Tags
 
-
-#startup #ideas_dev #note_taking_app #literature 
+#startup #ideas_dev #note_taking_app #fleeting 
 
 ---
 

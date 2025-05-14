@@ -46,7 +46,7 @@ Each time we call the training function we are performing:
 
 For each epoch in the training process we would need to call 10.000 times the compiled training function, which leads to overhead due the number of calls (even if the function itself is fully optimized, the calling process is inefficient).
 
-What Step Fusing does is to minimize the number of calls to the compiled function while keeping the exact same number of batches to process per each epoch and not modifying the semantics or other training parameters at all.
+What Step Fusing does consists on minimizing the number of calls to the compiled function while keeping the exact same number of batches to process per each epoch while not modifying the semantics or other training parameters at all.
 ### Sources
 
 - `ChatGPT`
