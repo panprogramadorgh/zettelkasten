@@ -70,7 +70,65 @@ f = tf.data.Dataset.range(10) # Dataset element
 
 ## Brief Introduction Example
 
-Next we will take a look at an example of machine learning classification problem where we have to load images labeled under specific names in order to train a model.
+Lets take a look at an introduction example of TensorFlow's input data utilities, specifically we will be working with images.
+
+> Since TensorFlow works with `pillow` under the hood, the supported images format are: `jpeg, jpg, png, bpm and gif`.
+
+In this example we will process and categorize images under different class names. The images format will be `.jpg` (but might be any of above) and the class associated to each image will be given based on the files structure described next.
+
+- First of all we will have a directory called `training_ds`, which will be the main directory in the training input dataset, in the other hand
+
+- `training_ds` will contain multiple subdirectories, each of which associated with different classes, finally
+
+- Each subdirectory will contain a whole bunch of images related with its class name.
+
+The files structure should look like follows:
+
+```
+training_ds/
+..class_a/
+....a_00.jpg
+....a_01.jpg
+..class_b/
+....b_00.jpg
+....b_01.jpg
+```
+
+Fortunately, TensorFlow Keras offers a built-in function to create a `tf.data.Dataset`  labeling images under class names though a files structure like above. It is called `keras.utils.image_dataset_from_directory` — for further details read the [official docs regarding to this routine](https://keras.io/api/data_loading/image/#image_dataset_from_directory-function).
+
+This function actually takes a lot of arguments, but in the case we will cover some of them:
+- `directory` — Specifies the path for the very parent directory (the one that wraps the entire training images dataset)
+
+- `labels` — Gives name to the training images dataset classes. Although  we can pass the value "inferred" to let the internal implementation automatically read the subdirectories and know what classes will the training dataset have.
+
+- `label_mode` — It completely depends on the loss function we will use, and thus it depends on the kind of problem. In this particular case we will use "categorical", since our neural network is pretended to return discrete values that regards to this class names.
+
+- `batch_size` — The number of units we will use to calculate the gradients and avoid local minimums when training an ANN model.
+
+- `image_size`  — The shape of a second dimension board that contains the `height` and `width` of the images that belongs to the dataset. Note that the images will have three different channels (reed, green and blue) but we will not specify that here.
+
+```python
+import keras
+
+dataset = keras.utils.image_dataset_from_directory(
+
+  directory=DIR,
+
+  label="inferred",
+
+  label_mode="categorical",
+
+  batch_size=64,
+
+  image_size=(256, 256)
+
+)
+```
+
+
+## Load Images
+
+... next we will explain how to load images in ppm format
 
 ### Sources
 - [Official TensorFlow's Docs Regarding to Datasets](https://www.tensorflow.org/api_docs/python/tf/data/Dataset)
