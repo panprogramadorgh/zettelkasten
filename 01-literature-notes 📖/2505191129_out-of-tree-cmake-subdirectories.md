@@ -80,3 +80,7 @@ set(CMAKE_ALLOW_LOOSE_LOOP_CONSTRUCTS TRUE)
 ```
 
 This method isn't recommended for real projects since it might lead to relative path references, compilation and installation errors in the future.
+
+## Best practice
+
+The best method we can use if we encounter in this situation would be to crate a copy of the subdirectory out-of-tree we can to make reference to at the same level our project's `CMakeList.txt` is.
