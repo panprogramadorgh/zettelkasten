@@ -83,4 +83,39 @@ This method isn't recommended for real projects since it might lead to relative 
 
 ## Best practice
 
-The best method we can use if we encounter in this situation would be to crate a copy of the subdirectory out-of-tree we can to make reference to at the same level our project's `CMakeList.txt` is.
+The best method we can use if we encounter in this situation would be to crate a copy of the out-of-tree subdirectory that we want to make reference to at the same level our project's `CMakeList.txt` is located.
+
+The simples way we can do so would be through a CMake command that invokes the copy command from CMake for better portability.
+
+In order to ease the process of coping a directory, we can create a custom CMake routine like in the following example:
+
+```cmake
+function(add_dir_copy_target TARGET_NAME SRC DST)
+    add_custom_command(
+        OUTPUT ${DST}
+        COMMAND ${CMAKE_COMMAND} -E copy_directory ${SRC} ${DST}
+        COMMENT "Coping directory '${SRC}' to '${DST}'"
+        DEPENDS ${SRC}
+        VERBATIM
+    )
+
+    add_custom_target(
+        ${TARGET_NAME}
+        DEPENDS ${DST}
+        COMMENT "Target '${TARGET_NAME}' for directory copy"
+    )
+endfunction()
+```
+
+This routine allows to create a target that in turn depends on the execution of a CMake custom command in charge of coping the source directory.
+
+We have to recall that CMake custom targets, unlike traditional targets, doesn't really generate files, instead we can use them as a dependency-creation tool like follows:
+
+```cmake
+add_executable(main main.cpp)
+
+add_copy_dir_target(CopyDir ${CMAKE_SOURCE_DIR}/test_dir ${CMAKE_BINARY_DIR}/new_dir)
+
+add_dependencies(main CopyDir)
+```
+
