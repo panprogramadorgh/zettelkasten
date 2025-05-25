@@ -10,7 +10,11 @@ TensorFlow is an open source machine learning library developed by google.
 ## Introduction to TensorFlow
 
 - [[2505051014_tensorflow-brief]]
-- [[2505061002_who-should-use-tensorflow-keras]]
+- [[2505060829_tensorflow-keras-api-brief
+
+## Advanced Concepts
+
+- [[2505240851_tensorflow-compilation]]
 
 ## Interfaces
 

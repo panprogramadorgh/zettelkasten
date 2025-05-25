@@ -9,7 +9,7 @@ Step Fusing is a training optimization technique employed in the context of Arti
 ### References
 
 In order to have a better understanding about how this optimization method works, I truly recommend to read:
-- [[2505131212_gradient-descent-brief]]
+- [[2505131212_gradient-descent-ml-optimizer]]
 - [[2505240851_tensorflow-compilation]]
 
 ## Calling Overhead

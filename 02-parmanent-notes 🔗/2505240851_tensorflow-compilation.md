@@ -25,3 +25,7 @@ import tensoflow as tf
 def train_step(batch_data):
     # your tensorflow code here
 ```
+
+### Sources
+
+- `ChatGPT`
