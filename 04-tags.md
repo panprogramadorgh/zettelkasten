@@ -9,7 +9,7 @@
 
 ## Tech
 
-#ia #python #programming #neural_networks #image_processing #machine_learning 
+#ai #python #programming #neural_networks #image_processing #machine_learning 
 #library #computer_vision #natural_language_processing #tensorflow #git #cmake
 
 ## Startup

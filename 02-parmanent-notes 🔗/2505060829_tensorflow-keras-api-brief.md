@@ -4,7 +4,7 @@ Keras consists of a high-level API of the TensorFlow library which provides an a
 
 ### Tags
 
-#ia #machine_learning #neural_networks #tensorflow #permanent 
+#ai #machine_learning #neural_networks #tensorflow #permanent 
 
 ---
 

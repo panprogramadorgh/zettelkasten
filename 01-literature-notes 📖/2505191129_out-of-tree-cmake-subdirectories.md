@@ -31,7 +31,7 @@ better_vnc/
 ..compile.sh
 ```
 
-This is the files structure of an example VNC wrapper library that suggests what files may contain, being the `vnc_server` directory a [git submodule](2505121233_quick-git-submodules-guide) — which is in charge of providing the core functionality layer.
+This is the files structure of an example VNC wrapper library that suggests what files may contain, being the `vnc_server` directory a [git submodule](25051238_git-submodules) — which is in charge of providing the core functionality layer.
 
 > Since `vnc_server` is a git submodule that regards to an external tool, its CMake compilation script should be considered as a separated CMake project.
 

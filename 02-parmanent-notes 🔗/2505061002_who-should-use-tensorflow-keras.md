@@ -2,7 +2,7 @@
 
 ### Tags
 
-#ia #machine_learning #neural_networks #tensorflow #literature
+#ai #machine_learning #neural_networks #tensorflow #literature
 
 ---
 

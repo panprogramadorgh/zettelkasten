@@ -6,7 +6,7 @@ These loading utilities can be combined with preprocessing layers to further tra
 
 ### Tags
 
-#programming #ia #machine_learning #neural_networks #image_processing #literature
+#programming #ai #machine_learning #neural_networks #image_processing #literature
 
 ---
 ## Meaning of Tensor

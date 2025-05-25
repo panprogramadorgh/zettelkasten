@@ -2,7 +2,7 @@
 
 ### Tags
 
-#note_taking_app #startup #permanent 
+#note_taking_app #startup #fleeting 
 
 ---
 
