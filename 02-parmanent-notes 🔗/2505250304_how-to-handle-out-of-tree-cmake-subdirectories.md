@@ -1,43 +1,23 @@
-# Out Of Tree Subdirectories in CMake
+# How to Handle Out-Of-Tree Subdirectories in CMake
+
+As mentioned in [[2505250255_out-of-tree-cmake-subdirectories]], the compilation tool CMake, doesn't allow by default to add a compilation subdirectory that doesn't belong to the project tree. 
 
 ### Tags
 
-#programming #cmake #literatue
+#cmake #permanent
 
 ---
+### References
 
-## Introduction
+Since this tutorial explains how to handle CMake out-of-tree subdirectories and takes as reference the exposed example in [[2505250255_out-of-tree-cmake-subdirectories]], would be recommended to take a minute to read an understand it.
 
-The compilation tool CMake, doesn't allow by default to add a compilation subdirectory that doesn't belong to the project tree. 
-- We consider a CMake subdirectory to be out of the project tree when the CMake project's CMakeLists.txt file is deeper in the filesystem than the subdirectory we want to add, and
-- We call a CMake compilation subdirectory a filesystem subdirectory that contains a `CMakeLists.txt` which is, in turn, referred by some project, where
-- A CMake project is a filesystem directory that contains a `CMakeLists.txt` file which internally executes the `project(<name>)` CMake function to "define" a project.
+## Exposing the Problem
 
-Lets provide an example in sake of clarity.
-
-```
-better_vnc/
-..vnc_server/
-....CMakeLists.txt
-....src/
-......CMakeLists.txt
-......vnc_core.cpp
-....examples/
-......CMakeLists.txt
-......simples.cpp
-..sources/
-....CMakeLists.txt
-....wrapper.cpp
-..compile.sh
-```
-
-This is the files structure of an example VNC wrapper library that suggests what files may contain, being the `vnc_server` directory a [git submodule](25051238_git-submodules) — which is in charge of providing the core functionality layer.
-
-> Since `vnc_server` is a git submodule that regards to an external tool, its CMake compilation script should be considered as a separated CMake project.
-
-This is how `./better_vnc/sources/CMakeLists.txt` might look like — if we idealize the example:
+In the example provided, `CMakeLists.txt` was located at `./better_vnc/sources` and might look as follows:
 
 ```cmake
+# ./better_vnc/sources/CMakeLists.txt
+
 # The minimum cmake version required
 cmake_minimum_required(VERSION 3.10)
 
@@ -70,7 +50,8 @@ make -j
 ![cmake-out-of-tree-error](cmake-out-of-tree-error.png)
 
 > An image of a real project with this problem.
-## Quickest solution
+
+## Quickest Solution
 
 If we are working in a testing project and we eventually need to add the subdirectory that doesn't belong to the "project tree" we can set the following two name-reserved CMake variables as follows: 
 
@@ -81,7 +62,7 @@ set(CMAKE_ALLOW_LOOSE_LOOP_CONSTRUCTS TRUE)
 
 This method isn't recommended for real projects since it might lead to relative path references, compilation and installation errors in the future.
 
-## Best practice
+## Best Practice
 
 The best method we can use if we encounter in this situation would be to crate a copy of the out-of-tree subdirectory that we want to make reference to at the same level our project's `CMakeList.txt` is located.
 
@@ -119,3 +100,6 @@ add_copy_dir_target(CopyDir ${CMAKE_SOURCE_DIR}/test_dir ${CMAKE_BINARY_DIR}/new
 add_dependencies(main CopyDir)
 ```
 
+### Sources
+
+- `ChatGPT`
