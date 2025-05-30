@@ -7,12 +7,11 @@
 #permanent 
 #moc
 
-## Tech
+## Programming
 
 #ai #python #programming #neural_networks #image_processing #machine_learning 
-#library #computer_vision #natural_language_processing #tensorflow #git #cmake
+#library #computer_vision #natural_language_processing #tensorflow #git #cmake #emscripten #c/cpp
 
-## Startup
+## Startup / Businesses
 
-#startup #brainstorming #ideas_dev #competitors_analysis 
-#note_taking_app
+#startup #ideas_dev #note_taking_app

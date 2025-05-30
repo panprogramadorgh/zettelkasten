@@ -3,7 +3,7 @@
 Next we will be exposing the main input / output utilities that we can we in the C/C++ programming language.
 ### Tags
 
-#programming #literature
+#programming #c/cpp #literature
 
 ---
 
